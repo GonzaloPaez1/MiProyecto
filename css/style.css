@@ -95,7 +95,7 @@ footer {
     display: grid;
     grid-template-areas: "mapa redes"
         "mapa derechos";
-    background-color: coral;
+    background-color: rgb(255, 80, 80);
     /*     justify-content: baseline;
     align-items: ;
     align-content: ; */
