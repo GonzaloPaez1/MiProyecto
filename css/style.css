@@ -65,10 +65,10 @@ header {
     text-decoration: none;
 }
 
-.container{
-display: flex;
-justify-content: space-around;
-align-items: center;
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
 }
 
@@ -81,15 +81,17 @@ align-items: center;
     height: 200px;
 }
 
-.parrafo__bienvenida{
-display: flex;
-justify-content: center;
-align-items: center;
+.parrafo__bienvenida {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .principal:hover {
     transform: scale(2, 2);
     transition: all 1s;
 }
+
 /* footer */
 footer {
     display: grid;
@@ -137,97 +139,52 @@ footer {
     display: grid;
     width: 100vw;
     height: 100vw;
-    grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr 1fr; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-template-areas: "pizza1 pizza2"
-                         "pizza3 pizza4"
+        "pizza3 pizza4"
     ;
-column-gap: 5px;
-row-gap: 5px
-;
-    
-    
+    column-gap: 5px;
+    row-gap: 5px;
+
+
 }
+
 .pizza1 {
     grid-area: pizza1;
     background-image: url("../imagenes/pizza1.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-   
+
 }
+
 .pizza2 {
     grid-area: pizza2;
     background-image: url("../imagenes/pizza2.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    
+
 }
+
 .pizza3 {
     grid-area: pizza3;
     background-image: url("../imagenes/pizza3.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-   
+
 }
+
 .pizza4 {
     grid-area: pizza4;
     background-image: url("../imagenes/pizza4.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    
-}
 
-
-/* para comentarios ctrl+} */
-
-/*MEDIA DE CELULAR*/
-/* tiene que haber una sola columna */
-@media (min-width: 320px) and (max-width: 575px) {
-
-header{
-height: auto;
-width: 100vmax;
-}
-
-.header__lista {
-    flex-direction: column;
-    flex-grow: 0;
-    justify-content: center;
-    align-items: center;
-}
-}
-
-.container{
-display: flex;
-flex-direction: column;
-}
-
-footer{
-display: flex;
-flex-direction: column;
-text-align: center;
-justify-content: center;
-width: 100vw;
-}
-
-.size__mapa{
-display: flex;
-justify-content: center;
-align-items: center;
-visibility: collapse;
-}
-.footer__redes{
-justify-content: center;
-align-items: center;
 }
 
 
 
-
-
-/*MEDIA DE TABLET*/
-@media (min-widht: 576px) and (max-widht: 992px) {}
