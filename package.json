@@ -1,0 +1,23 @@
+{
+  "name": "desafio-2-juangonzalopaez",
+  "version": "1.0.0",
+  "description": "<h1>pizzeria</h1>\r <p>El sitio es una pagina basica pero util para una pizzeria</p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GonzaloPaez1/MiProyecto.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GonzaloPaez1/MiProyecto/issues"
+  },
+  "homepage": "https://github.com/GonzaloPaez1/MiProyecto#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
