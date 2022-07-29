@@ -1,0 +1,44 @@
+/* @media (min-width: 320px) and (max-width: 575px)*/
+
+@media (min-width: 320px) and (max-width: 575px) {
+    body {
+        background-color: rgba(0, 0, 0, 0.454);
+    }
+}
+
+/* @media (min-width: 576px) and (max-width: 992)*/
+
+@media (min-width: 576px) and (max-width: 992px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        contain: content;
+        width: 100vmax;
+        height: 100vmax;
+        background-color: rgba(128, 128, 128, 0.613);
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: auto;
+
+}
+.size__mapa{
+display: none;
+}
+
+footer {
+display: flex;
+flex-direction: column;
+.footer__redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+}
+
+
+}

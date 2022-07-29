@@ -1,0 +1,42 @@
+header {
+    background-color: coral;
+    height: 70px;
+    position: sticky;
+    top: 0;
+
+}
+
+.header__nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    .header__logo {
+        width: 90px;
+        height: 70px;
+    }
+    
+    .header__lista {
+        display: flex;
+        list-style: none;
+        /* Que haya un punto adelante */
+        padding: 0 16px;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        justify-content: flex-end;
+        flex-grow: 1;
+    }
+    
+    
+    
+    .header__item {
+        /* display: inline; */
+        padding: 20px;
+    }
+    
+    .header__item a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+

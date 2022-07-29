@@ -1,0 +1,49 @@
+@import "variables";
+@import "footer";
+@import "nav";
+@import "pages/menu";
+@import "pages/contacto";
+@import "pages/pedido";
+@import "mediaqueries";
+
+
+*{
+    margin: 0px;
+    /* MARGEN EXTERNO */
+    padding: 0px;
+    /* MARGEN INTERNO */
+}
+
+body {
+    font-family: 'Crimson Pro', serif;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Pacifico', cursive;
+    color: #049efc;
+}
+
+p {
+    padding: 0 16px;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+.pedido {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.imagen {
+    display: inline-flexbox;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+.principal:hover {
+    transform: scale(2, 2);
+    transition: all 1s;
+}
+

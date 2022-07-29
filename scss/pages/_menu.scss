@@ -1,0 +1,50 @@
+.comidas__grid {
+    display: grid;
+    width: 100vw;
+    height: 100vw;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "pizza1 pizza2"
+                         "pizza3 pizza4"
+    ;
+    column-gap: 5px;
+    row-gap: 5px;
+
+
+}
+
+.pizza1 {
+    grid-area: pizza1;
+    background-image: url("../imagenes/pizza1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.pizza2 {
+    grid-area: pizza2;
+    background-image: url("../imagenes/pizza2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.pizza3 {
+    grid-area: pizza3;
+    background-image: url("../imagenes/pizza3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.pizza4 {
+    grid-area: pizza4;
+    background-image: url("../imagenes/pizza4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
