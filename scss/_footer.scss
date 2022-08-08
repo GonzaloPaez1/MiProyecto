@@ -18,9 +18,7 @@ footer {
 
 .footer__redes {
     grid-area: redes;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+
     .footer__iconos {
         width: 70px;
         height: 70px;
@@ -37,6 +35,7 @@ footer {
 
 
 .size__mapa {
+    display: block;
     width: 700px;
     height: 300px;
 }

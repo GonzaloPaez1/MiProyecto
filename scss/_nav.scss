@@ -3,6 +3,7 @@ header {
     height: 70px;
     position: static;
     top: 0;
+    
 }
 
 .header__nav {
@@ -29,7 +30,7 @@ header {
     
     .header__item {
         /* display: inline; */
-        padding: 20px;
+        padding: 10px;
     }
     
     .header__item a {

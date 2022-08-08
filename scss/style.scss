@@ -2,10 +2,11 @@
 @import "footer";
 @import "nav";
 @import "operators";
-@import "mediaqueries";
 @import "pages/menu";
 @import "pages/contacto";
 @import "pages/pedido";
+@import "pages/index";
+@import "mediaqueries";
 
 *{
     margin: 0px;
@@ -21,11 +22,15 @@ body {
 h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
+    text-shadow: 1px 1px 3px coral;
+    padding: 10px;
+    
 }
 
 h2 {
     font-family: 'roboto', cursive;
     color:  $color-secundario;
+    text-shadow: 1px 1px 3px coral;
 }
 
 p {
